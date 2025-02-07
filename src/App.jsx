@@ -12,14 +12,15 @@ const App = () => {
   };
 
   return (
-    <div style={{ textAlign: 'center', height: '100px', width: '100px', minHeight: '100px', minWidth: '100px' }}>
-      <Html5QrcodePlugin
+    <div style={{ textAlign: 'center', height: '100px', width: '100px', minHeight: '100px', minWidth: '100px', backgroundColor: 'red' }}>
+      <input type="text" />
+      {/* <Html5QrcodePlugin
         fps={10}
         qrbox={250}
         disableFlip={false}
         qrCodeSuccessCallback={onNewScanResult}
       />
-      {status}
+      {status} */}
     </div>
   );
 };
