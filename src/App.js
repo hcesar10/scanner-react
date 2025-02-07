@@ -15,6 +15,12 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <input type="text" onKeyUp={(e) => {
+          if (e.key === 'Enter') {
+            setData(e.target.value);
+            e.target.value = '';
+          }
+        }} />
         <Html5QrcodePlugin
           fps={10}
           qrbox={250}
