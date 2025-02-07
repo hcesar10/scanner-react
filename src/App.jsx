@@ -12,7 +12,7 @@ const App = () => {
   };
 
   return (
-    <div className="App" style={{ textAlign: 'center' }}>
+    <div style={{ textAlign: 'center' }}>
       <Html5QrcodePlugin
         fps={10}
         qrbox={250}
