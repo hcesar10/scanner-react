@@ -12,7 +12,7 @@ const App = () => {
   };
 
   return (
-    <div style={{ textAlign: 'center', height: '100px', width: '100px', minHeight: '100px', minWidth: '100px', backgroundColor: 'red' }}>
+    <div style={{ textAlign: 'center', height: '100px', width: '100px', backgroundColor: 'red' }}>
       <input type="text" />
       {/* <Html5QrcodePlugin
         fps={10}
