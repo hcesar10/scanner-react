@@ -41,7 +41,6 @@ function App() {
   return (
     <div className="App">
       <div>
-        <img src={logo} className="App-logo" alt="logo" />
         <input
           type="textarea"
           onKeyDown={(e) => {
