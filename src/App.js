@@ -44,7 +44,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <input
           type="textarea"
-          onKeyUp={(e) => {
+          onKeyDown={(e) => {
             if (e.key === 'Enter') {
               setData(e.target.value);
               if (e.target.value.endsWith("7")) {
