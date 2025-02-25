@@ -40,6 +40,7 @@ function App() {
 
   return (
     <div className="App">
+      <p>Teste PWA</p>
       <div>
         <input
           type="textarea"
